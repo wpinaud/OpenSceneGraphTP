@@ -293,12 +293,21 @@ Représenter les graphes de scene.
 • Visualiser une grandeur associée a cet objet.
 • Représenter le graphe de scene.
 ```
-0. Modele physique
-1. Implémentation
-1. Un mur de brique ?
-2. Lancé de balle dans le mur de brique ?
 
+0. Déplacement aléatoire des pions
+Dans un premier temps, nous avons affecté une position aléatoire aux pions blancs à chaque frame dans la fonction de callback. Du coup, ils bougeaient très vite, et on ne voyait rien. 
 
+0. Explication du callback
+On a ajouté un callback aux noeuds des enfants de la matrixtransform qui gère la position de la table de jeu, sur laquelle sont déposés les pions blancs. C'est à dire que le callback s'applique à tous les pions blancs. 
+On récupère la matrice de transformation mise à jour avec les touches du clavier, et on la multiplie au vecteur normal au plateau initial, pour le faire évoluer avec le plateau. 
+Ensuite, on ajoute le résultat au vecteur poids pour obtenir la résultante des forces à appliquer aux pions. 
+
+1. Modele physique
+On attribue aux pions la position qu'ils avaient à l'instant précédent plus le déplacement entre deux frames. 
+Pour obtenir le déplacement entre deux frames, on définit la position à la frame n comme la somme de la position à la frame n-1 plus la résultante.  
+
+2. Evolution
+On ajoute de l'aléatoire dans le déplacement des pions pour que leur déplacement ne soit pas tout à fait homogène. 
 
 
 
