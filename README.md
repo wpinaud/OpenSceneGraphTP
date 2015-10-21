@@ -173,7 +173,7 @@ On a ajouté de la neige.
 ![Alt text](Images/Capture d’écran 2015-10-15 à 16.45.50.png)
 
 **Deux lumières difféentes dans la scène.:**
-![Alt text](Images/Capture d’écran 2015-10-20 à 10.19.59.png)
+![Alt text](https://github.com/wpinaud/OpenSceneGraphTP/blob/master/Images/Capture%20d’écran%202015-10-20%20à%2010.19.59.png)
 
 **Nouveau graphe de scène:**
 ```
@@ -213,7 +213,7 @@ osg::Group (root)
     root->setStateSet(fogSS);
 ```
 **Exemples avec  ```osg::fog``` :**
-![Alt tex](Images/Capture d’écran 2015-10-20 à 10.54.06.png)
+![Alt tex](https://github.com/wpinaud/OpenSceneGraphTP/blob/master/Images/Capture%20d’écran%202015-10-20%20à%2010.54.06.png)
 **Graph de scène:**
 Le graph de scene ne change pas car on ne fait qu'ajouter un stateSet à la racine, ou sur le noeud où l'on veut appliquer le brouillard.
 
@@ -222,13 +222,13 @@ Le graph de scene ne change pas car on ne fait qu'ajouter un stateSet à la raci
 
 1. Les Pions
 
-![Alt txt](Images/Capture d’écran 2015-10-20 à 10.56.21.png)
+![Alt txt](https://github.com/wpinaud/OpenSceneGraphTP/raw/master/Images/Capture%20d’écran%202015-10-20%20à%2010.56.21.png)
 
 Ce sont de simples cylindres adaptés à la taille de la table de jeu.
 
 2. La table de jeu
 
-![Alttext](Images/Capture d’écran 2015-10-20 à 11.01.57.png)
+![Alttext](https://github.com/wpinaud/OpenSceneGraphTP/blob/master/Images/Capture%20d’écran%202015-10-20%20à%2011.01.57.png)
 
 Une box fine.
 
@@ -236,15 +236,15 @@ Une box fine.
 
   1. Les Pions
 
-![Alt tet](Images/Capture d’écran 2015-10-20 à 11.04.43.png)
+![Alt tet](https://github.com/wpinaud/OpenSceneGraphTP/blob/master/Images/Capture%20d’écran%202015-10-20%20à%2011.04.43.png)
 
   2. La table de jeu
 
-![Alttext](Images/Capture d’écran 2015-10-20 à 11.05.19.png)
+![Alttext](https://github.com/wpinaud/OpenSceneGraphTP/blob/master/Images/Capture%20d’écran%202015-10-20%20à%2011.05.19.png)
 
 4. Dans un environnement
 
-![lt text](Images/Capture d’écran 2015-10-20 à 11.32.27.png)
+![lt text](https://github.com/wpinaud/OpenSceneGraphTP/blob/master/Images/Capture%20d’écran%202015-10-20%20à%2011.32.27.png)
 
 6. Graph de scène
 
