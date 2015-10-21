@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JeuDeDames/monSuperCallback.hpp"
-            timestampString = "467132676.09344"
+            timestampString = "467135251.08832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "operator()(osg::Node* noeud, osg::NodeVisitor* visiteur)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JeuDeDames/monSuperCallback.hpp"
-            timestampString = "467132338.297502"
+            timestampString = "467135251.08832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "operator()(osg::Node* noeud, osg::NodeVisitor* visiteur)"
             landmarkType = "7">
          </BreakpointContent>
