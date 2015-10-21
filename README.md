@@ -304,7 +304,7 @@ On a ajouté un callback aux noeuds des enfants de la matrixtransform qui gère 
 On récupère la matrice de transformation mise à jour avec les touches du clavier, et on la multiplie au vecteur normal au plateau initial, pour le faire évoluer avec le plateau. 
 Ensuite, on ajoute le résultat au vecteur poids pour obtenir la résultante des forces à appliquer aux pions. 
 
-![](Images/Callback.gif)
+![](https://github.com/wpinaud/OpenSceneGraphTP/blob/master/Images/Callback.gif)
 
 1. Modele physique
 
