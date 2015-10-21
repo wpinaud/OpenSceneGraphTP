@@ -213,7 +213,7 @@ osg::Group (root)
     root->setStateSet(fogSS);
 ```
 **Exemples avec  ```osg::fog``` :**
-![Alt text](Images/Capture d’écran 2015-10-20 à 10.54.06.png)
+![Alt tex](Images/Capture d’écran 2015-10-20 à 10.54.06.png)
 **Graph de scène:**
 Le graph de scene ne change pas car on ne fait qu'ajouter un stateSet à la racine, ou sur le noeud où l'on veut appliquer le brouillard.
 
@@ -222,13 +222,13 @@ Le graph de scene ne change pas car on ne fait qu'ajouter un stateSet à la raci
 
 1. Les Pions
 
-![Alt text](Images/Capture d’écran 2015-10-20 à 10.56.21.png)
+![Alt txt](Images/Capture d’écran 2015-10-20 à 10.56.21.png)
 
 Ce sont de simples cylindres adaptés à la taille de la table de jeu.
 
 2. La table de jeu
 
-![Alt text](Images/Capture d’écran 2015-10-20 à 11.01.57.png)
+![Alttext](Images/Capture d’écran 2015-10-20 à 11.01.57.png)
 
 Une box fine.
 
@@ -236,14 +236,15 @@ Une box fine.
 
   1. Les Pions
 
-![Alt text](Images/Capture d’écran 2015-10-20 à 11.04.43.png)
+![Alt tet](Images/Capture d’écran 2015-10-20 à 11.04.43.png)
 
   2. La table de jeu
 
-![Alt text](Images/Capture d’écran 2015-10-20 à 11.05.19.png)
+![Alttext](Images/Capture d’écran 2015-10-20 à 11.05.19.png)
 
 4. Dans un environnement
-![Alt text](Images/Capture d’écran 2015-10-20 à 11.32.27.png)
+
+![lt text](Images/Capture d’écran 2015-10-20 à 11.32.27.png)
 
 6. Graph de scène
 
