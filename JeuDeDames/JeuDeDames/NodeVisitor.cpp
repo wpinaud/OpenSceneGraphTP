@@ -7,10 +7,19 @@
 //
 
 #include "NodeVisitor.hpp"
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <sstream>
+#include <iterator>
+#include <iostream>
 void InfoVisitor::apply( osg::Node& node )
 {
-    std::cout << spaces() << node.libraryName() << "::" << node.className() << std::endl;
-    
+    std::cout << spaces() << (std::string) node.libraryName() << "::" << node.className() << std::endl;
+    if ((std::string) node.className()=="PositionAttitudeTransform"){
+        osg::PositionAttitudeTransform* pat = dynamic_cast<osg::PositionAttitudeTransform*> (&node);
+        osg::Vec3d a = pat->getPosition();
+    }
     _level++;
     traverse( node );
     _level--;

@@ -8,6 +8,7 @@
 
 #include "Scene.hpp"
 #include "Pion.hpp"
+#include "ModelControler.hpp"
 
 osg::ref_ptr<osg::Node> creerLaScene()
 {
@@ -194,7 +195,7 @@ osg::ref_ptr<osg::StateSet> tableSS (geodeTable->getOrCreateStateSet());
     geodeTable->setStateSet(tableSS);
 
     
-    /*LIGHTING*/
+/*LIGHTING*/
     //Create nodes
     osg::ref_ptr<osg::Group> lightGroup (new osg::Group());
     osg::ref_ptr<osg::StateSet> lightSS (lightGroup->getOrCreateStateSet());
@@ -254,8 +255,15 @@ osg::ref_ptr<osg::StateSet> tableSS (geodeTable->getOrCreateStateSet());
 //    
 // Add the geode to the scene graph root (Group)
 //    root->addChild(geodePion.get());
+    geodeTable->addDrawable(tableDrawable);
+    osg::ref_ptr<osg::MatrixTransform> mt = new osg::MatrixTransform;
+    mt->addChild( geodeTable.get() );
+    
+    osg::ref_ptr<ModelController> ctrler = new ModelController( mt.get() );
+    
+    
+    
     root->addChild(pMatTrans);
-    geodeTable->className
     root->addChild(geodeTable);
 //    
 //    

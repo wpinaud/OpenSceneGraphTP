@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452EEF0C1BD7C5A9004D4C86 /* ModelControler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452EEF0A1BD7C5A9004D4C86 /* ModelControler.cpp */; settings = {ASSET_TAGS = (); }; };
+		452EEF0F1BD7C9CF004D4C86 /* monSuperCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452EEF0D1BD7C9CF004D4C86 /* monSuperCallback.cpp */; settings = {ASSET_TAGS = (); }; };
 		4536851B1BD048D6002420CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4536851A1BD048D6002420CF /* main.cpp */; };
 		4536852D1BD0494D002420CF /* libOpenThreads.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 453685211BD0494D002420CF /* libOpenThreads.3.2.1.dylib */; };
 		4536852E1BD0494D002420CF /* libosg.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 453685221BD0494D002420CF /* libosg.3.2.1.dylib */; };
@@ -39,6 +41,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		452EEF0A1BD7C5A9004D4C86 /* ModelControler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModelControler.cpp; sourceTree = "<group>"; };
+		452EEF0B1BD7C5A9004D4C86 /* ModelControler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ModelControler.hpp; sourceTree = "<group>"; };
+		452EEF0D1BD7C9CF004D4C86 /* monSuperCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = monSuperCallback.cpp; sourceTree = "<group>"; };
+		452EEF0E1BD7C9CF004D4C86 /* monSuperCallback.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = monSuperCallback.hpp; sourceTree = "<group>"; };
 		453685171BD048D6002420CF /* JeuDeDames */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JeuDeDames; sourceTree = BUILT_PRODUCTS_DIR; };
 		4536851A1BD048D6002420CF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		453685211BD0494D002420CF /* libOpenThreads.3.2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenThreads.3.2.1.dylib; path = ../../../../../../../opt/local/lib/libOpenThreads.3.2.1.dylib; sourceTree = "<group>"; };
@@ -119,7 +125,11 @@
 			children = (
 				4536851A1BD048D6002420CF /* main.cpp */,
 				453685391BD04A8D002420CF /* Scene.cpp */,
+				452EEF0D1BD7C9CF004D4C86 /* monSuperCallback.cpp */,
+				452EEF0E1BD7C9CF004D4C86 /* monSuperCallback.hpp */,
 				459C2CAA1BD642B100FA31CA /* NodeVisitor.cpp */,
+				452EEF0A1BD7C5A9004D4C86 /* ModelControler.cpp */,
+				452EEF0B1BD7C5A9004D4C86 /* ModelControler.hpp */,
 				459C2CAB1BD642B100FA31CA /* NodeVisitor.hpp */,
 				4536853A1BD04A8D002420CF /* Scene.hpp */,
 				4536853F1BD0EE58002420CF /* Pion.cpp */,
@@ -186,6 +196,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452EEF0F1BD7C9CF004D4C86 /* monSuperCallback.cpp in Sources */,
+				452EEF0C1BD7C5A9004D4C86 /* ModelControler.cpp in Sources */,
 				4536853E1BD0DF09002420CF /* Events.cpp in Sources */,
 				4536853B1BD04A8D002420CF /* Scene.cpp in Sources */,
 				459C2CAC1BD642B100FA31CA /* NodeVisitor.cpp in Sources */,

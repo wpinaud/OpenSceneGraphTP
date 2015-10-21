@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <osg/NodeVisitor>
 #include <osg/Geode>
+#include <osg/PositionAttitudeTransform>
 #include <iostream>
 
 #endif /* NodeVisitor_hpp */
