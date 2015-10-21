@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F13D1A1BCF849D00BEBA19 /* libosg.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F13D151BCF849D00BEBA19 /* libosg.3.2.1.dylib */; };
+		45F13D1B1BCF849D00BEBA19 /* libosgDB.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F13D161BCF849D00BEBA19 /* libosgDB.3.2.1.dylib */; };
+		45F13D1C1BCF849D00BEBA19 /* libosgGA.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F13D171BCF849D00BEBA19 /* libosgGA.3.2.1.dylib */; };
+		45F13D1D1BCF849D00BEBA19 /* libosgUtil.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F13D181BCF849D00BEBA19 /* libosgUtil.3.2.1.dylib */; };
+		45F13D1E1BCF849D00BEBA19 /* libosgViewer.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F13D191BCF849D00BEBA19 /* libosgViewer.3.2.1.dylib */; };
+		45F13D201BCF850F00BEBA19 /* libOpenThreads.3.2.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F13D1F1BCF850F00BEBA19 /* libOpenThreads.3.2.1.dylib */; };
+		45F13D2E1BCF865600BEBA19 /* TP_OSG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45F13D291BCF865600BEBA19 /* TP_OSG.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45F13D091BCF7C5400BEBA19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45F13D0B1BCF7C5400BEBA19 /* TP_Osg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP_Osg; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F13D151BCF849D00BEBA19 /* libosg.3.2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosg.3.2.1.dylib; path = ../../../../opt/local/lib/libosg.3.2.1.dylib; sourceTree = "<group>"; };
+		45F13D161BCF849D00BEBA19 /* libosgDB.3.2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosgDB.3.2.1.dylib; path = ../../../../opt/local/lib/libosgDB.3.2.1.dylib; sourceTree = "<group>"; };
+		45F13D171BCF849D00BEBA19 /* libosgGA.3.2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosgGA.3.2.1.dylib; path = ../../../../opt/local/lib/libosgGA.3.2.1.dylib; sourceTree = "<group>"; };
+		45F13D181BCF849D00BEBA19 /* libosgUtil.3.2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosgUtil.3.2.1.dylib; path = ../../../../opt/local/lib/libosgUtil.3.2.1.dylib; sourceTree = "<group>"; };
+		45F13D191BCF849D00BEBA19 /* libosgViewer.3.2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosgViewer.3.2.1.dylib; path = ../../../../opt/local/lib/libosgViewer.3.2.1.dylib; sourceTree = "<group>"; };
+		45F13D1F1BCF850F00BEBA19 /* libOpenThreads.3.2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenThreads.3.2.1.dylib; path = ../../../../opt/local/lib/libOpenThreads.3.2.1.dylib; sourceTree = "<group>"; };
+		45F13D211BCF865600BEBA19 /* cessna.osg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cessna.osg; sourceTree = "<group>"; };
+		45F13D221BCF865600BEBA19 /* cow.osg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cow.osg; sourceTree = "<group>"; };
+		45F13D231BCF865600BEBA19 /* Fieldstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fieldstone.png; sourceTree = "<group>"; };
+		45F13D241BCF865600BEBA19 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		45F13D251BCF865600BEBA19 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		45F13D261BCF865600BEBA19 /* Terrain2.3ds */ = {isa = PBXFileReference; lastKnownFileType = file; path = Terrain2.3ds; sourceTree = "<group>"; };
+		45F13D271BCF865600BEBA19 /* Terrain3.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Terrain3.tga; sourceTree = "<group>"; };
+		45F13D281BCF865600BEBA19 /* TP_OSG */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = TP_OSG; sourceTree = "<group>"; };
+		45F13D291BCF865600BEBA19 /* TP_OSG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TP_OSG.cpp; sourceTree = "<group>"; };
+		45F13D2A1BCF865600BEBA19 /* TP_OSG.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = TP_OSG.o; sourceTree = "<group>"; };
+		45F13D2B1BCF865600BEBA19 /* window04smash.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = window04smash.bmp; sourceTree = "<group>"; };
+		45F13D2C1BCF865600BEBA19 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		45F13D301BCFEDE300BEBA19 /* fond-neige.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-neige.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F13D081BCF7C5400BEBA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F13D201BCF850F00BEBA19 /* libOpenThreads.3.2.1.dylib in Frameworks */,
+				45F13D1A1BCF849D00BEBA19 /* libosg.3.2.1.dylib in Frameworks */,
+				45F13D1B1BCF849D00BEBA19 /* libosgDB.3.2.1.dylib in Frameworks */,
+				45F13D1C1BCF849D00BEBA19 /* libosgGA.3.2.1.dylib in Frameworks */,
+				45F13D1D1BCF849D00BEBA19 /* libosgUtil.3.2.1.dylib in Frameworks */,
+				45F13D1E1BCF849D00BEBA19 /* libosgViewer.3.2.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F13D021BCF7C5400BEBA19 = {
+			isa = PBXGroup;
+			children = (
+				45F13D1F1BCF850F00BEBA19 /* libOpenThreads.3.2.1.dylib */,
+				45F13D151BCF849D00BEBA19 /* libosg.3.2.1.dylib */,
+				45F13D161BCF849D00BEBA19 /* libosgDB.3.2.1.dylib */,
+				45F13D171BCF849D00BEBA19 /* libosgGA.3.2.1.dylib */,
+				45F13D181BCF849D00BEBA19 /* libosgUtil.3.2.1.dylib */,
+				45F13D191BCF849D00BEBA19 /* libosgViewer.3.2.1.dylib */,
+				45F13D0D1BCF7C5400BEBA19 /* TP_Osg */,
+				45F13D0C1BCF7C5400BEBA19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45F13D0C1BCF7C5400BEBA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F13D0B1BCF7C5400BEBA19 /* TP_Osg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F13D0D1BCF7C5400BEBA19 /* TP_Osg */ = {
+			isa = PBXGroup;
+			children = (
+				45F13D211BCF865600BEBA19 /* cessna.osg */,
+				45F13D221BCF865600BEBA19 /* cow.osg */,
+				45F13D301BCFEDE300BEBA19 /* fond-neige.jpg */,
+				45F13D231BCF865600BEBA19 /* Fieldstone.png */,
+				45F13D241BCF865600BEBA19 /* fonts */,
+				45F13D251BCF865600BEBA19 /* Makefile */,
+				45F13D261BCF865600BEBA19 /* Terrain2.3ds */,
+				45F13D271BCF865600BEBA19 /* Terrain3.tga */,
+				45F13D281BCF865600BEBA19 /* TP_OSG */,
+				45F13D291BCF865600BEBA19 /* TP_OSG.cpp */,
+				45F13D2A1BCF865600BEBA19 /* TP_OSG.o */,
+				45F13D2B1BCF865600BEBA19 /* window04smash.bmp */,
+				45F13D2C1BCF865600BEBA19 /* wood.png */,
+			);
+			path = TP_Osg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F13D0A1BCF7C5400BEBA19 /* TP_Osg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F13D121BCF7C5400BEBA19 /* Build configuration list for PBXNativeTarget "TP_Osg" */;
+			buildPhases = (
+				45F13D071BCF7C5400BEBA19 /* Sources */,
+				45F13D081BCF7C5400BEBA19 /* Frameworks */,
+				45F13D091BCF7C5400BEBA19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TP_Osg;
+			productName = TP_Osg;
+			productReference = 45F13D0B1BCF7C5400BEBA19 /* TP_Osg */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F13D031BCF7C5400BEBA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Willis Pinaud";
+				TargetAttributes = {
+					45F13D0A1BCF7C5400BEBA19 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 45F13D061BCF7C5400BEBA19 /* Build configuration list for PBXProject "TP_Osg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45F13D021BCF7C5400BEBA19;
+			productRefGroup = 45F13D0C1BCF7C5400BEBA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F13D0A1BCF7C5400BEBA19 /* TP_Osg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F13D071BCF7C5400BEBA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F13D2E1BCF865600BEBA19 /* TP_OSG.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45F13D101BCF7C5400BEBA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45F13D111BCF7C5400BEBA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45F13D131BCF7C5400BEBA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45F13D141BCF7C5400BEBA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F13D061BCF7C5400BEBA19 /* Build configuration list for PBXProject "TP_Osg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F13D101BCF7C5400BEBA19 /* Debug */,
+				45F13D111BCF7C5400BEBA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F13D121BCF7C5400BEBA19 /* Build configuration list for PBXNativeTarget "TP_Osg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F13D131BCF7C5400BEBA19 /* Debug */,
+				45F13D141BCF7C5400BEBA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45F13D031BCF7C5400BEBA19 /* Project object */;
+}
